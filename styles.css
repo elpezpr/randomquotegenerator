@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+    background-color: #0b0d0f;
+    color: #00ffcc;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, #1a1a1d, #0b0d0f);
+}
+
+.main-container {
+    width: 80%;
+    max-width: 600px;
+    height: 250px;
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #00e6e6;
+    text-shadow: 0 0 4px #00e6e6;
+}
+
+.quote-container {
+    height: 150px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+#quote {
+    font-size: 1.2em;
+    color: #00ffcc;
+    text-shadow: 0 0 4px #00ffcc;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+#spinner {
+    font-size: 1.2em;
+    color: #00ffcc;
+    text-shadow: 0 0 8px #00ffcc;
+    position: absolute;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.button-container {
+    height: 50px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #00ffcc;
+    color: #0b0d0f;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #00ffcc;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #00e6e6;
+    box-shadow: 0 0 20px #00e6e6;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.9); }
+    100% { opacity: 1; transform: scale(1); }
+}
