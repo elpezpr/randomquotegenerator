@@ -8,6 +8,9 @@ A simple web application that fetches and displays random inspirational quotes w
 - **Design**: Utilizes the 'Orbitron' font from Google Fonts and a dark, neon-accented color scheme to create a sci-fi aesthetic.
 - **Functionality**: Fetches quotes from the [ZenQuotes API](https://zenquotes.io/) using asynchronous JavaScript and displays them with smooth fade-in animations.
 
+  ## Test the App
+    https://codepen.io/elpezpr/pen/zYgzKqE
+
 ## Technologies Used
 
 - **HTML5**
